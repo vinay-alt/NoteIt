@@ -1,0 +1,17 @@
+
+<div id="form_side">
+			<form action="{{url_for('update')}}" method="post">
+				<div id="title_form">
+					<h1>Edit Note</h1>
+				</div>
+				<input type="hidden" value="{{notes.0}}" name="up_id" />
+				<div id="form_group">
+					<input type="text" name="title" value="{{notes.1}}" placeholder="Title" autocomplete="off" />
+				</div>
+				<div id="form_group">
+					<textarea name="note" >{{notes.2}}</textarea>
+				</div>
+				<input type="submit" id="add" name="Edit" value="Edit Note" />
+			</form>
+		</div>
+

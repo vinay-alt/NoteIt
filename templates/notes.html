@@ -1,0 +1,11 @@
+<div id="notes_side">
+
+			{% for row in notes %}
+			<div id="note_box">
+				<h1>{{row.1}}</h1>
+				<p>{{row.2[0:50]+"........."}}</p>
+				<a href="/delete/{{row.0}}" title="delete">Delete</a>
+				<a href="/viewmore/{{row.0}}" title="View More">View More</a>
+			</div>
+			{% endfor %}
+		</div>
