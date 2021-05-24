@@ -27,6 +27,6 @@ Programming languages used
 
 # UI Interface
 
-![UI for project](https://github.com/vinay-alt/NoteIt/noteitimage.png "UI for the project")
+![UI for project](https://github.com/vinay-alt/NoteIt/blob/master/noteitimage.PNG "UI for the project")
 
 
