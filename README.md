@@ -11,19 +11,26 @@ Demo of the project : [NoteIt](https://youtu.be/JjjEpFphQBU)
 # Requirements
 
 Softwares Used
+
+```
 - Pycharm
 - xampp
+```
 
 python libraries required
+
+```
 - flask
 - flask_mysqldb
-
+```
 Programming languages used
+
+```
 - Python
 - Sql
 - html
 - css
-
+```
 
 # UI Interface
 
